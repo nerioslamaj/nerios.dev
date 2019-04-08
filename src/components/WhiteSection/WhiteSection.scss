@@ -1,0 +1,20 @@
+@import "../../Const.scss";
+
+.WhiteSection {
+  padding: 80px 0 0 0;
+  position: relative;
+  @include breakpoint($tablet) {
+    padding: 100px 0 0 0;
+  }
+  .white-div {
+    height: 1884px;
+    width: 100%;
+    background-color: $nl-white;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    @include breakpoint($tablet) {
+      height: 1436px;
+    }
+  }
+}

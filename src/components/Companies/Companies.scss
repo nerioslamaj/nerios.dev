@@ -1,0 +1,23 @@
+@import "../../Const.scss";
+
+.Companies {
+  margin: 0 14px 0 14px;
+  @include breakpoint($tablet) {
+    margin: 0 80px 20px 80px;
+  }
+  div {
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 50px;
+    @include breakpoint($tablet) {
+      width: 33.333%;
+    }
+    img {
+      width: 124px;
+      @include breakpoint($tablet) {
+        width: 160px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../Const.scss";
+
+span.Button {
+  cursor: pointer;
+  &:hover {
+    .line {
+      width: 42px;
+      @extend %fade;
+    }
+  }
+  .line {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 12px;
+    width: 32px;
+    height: 2px;
+    @extend %fade;
+  }
+}

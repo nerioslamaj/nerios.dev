@@ -1,0 +1,8 @@
+@import "../../Const.scss";
+
+.Portfolio {
+  margin: 100px 0;
+  @include breakpoint($tablet) {
+    margin: 140px 0;
+  }
+}

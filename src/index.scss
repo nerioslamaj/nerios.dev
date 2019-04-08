@@ -1,0 +1,94 @@
+@import "./Const.scss";
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700');
+@font-face { font-family: "Futura-Regular"; src: url("./assets/fonts/FuturaLT.ttf") format("ttf") };
+@font-face { font-family: "Futura-Bold"; src: url("./assets/fonts/FuturaLT-Bold.ttf") format("ttf") };
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  opacity: 0;
+  animation: fadeIn 0.3s ease 0.3s;
+  background-color: #111;
+  animation-fill-mode: both;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111;
+  canvas {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    transition:
+      height 0.15s ease-out 0.15s,
+      width 0.15s ease-out 0.15s,
+      left 0.15s ease-in 0.15s,
+      clip-path 0.15s ease-in
+    ;
+    left: 50%;
+    height: 100vh !important;
+    width: 100vw !important;
+    clip-path: polygon(
+      0% 0%,      /* 1 */
+      0% 100%,    /* 2 */
+      12.8% 100%,   /* 3 */
+      12.8% 12.8%,    /* 4 */
+      87.2% 12.8%,    /* 5 */
+      87.2% 12.8%,    /* 6 */
+      87.2% 12.8%,    /* 7 */
+      87.2% 87.2%,    /* 8 */
+      87.2% 87.2%,    /* 9 */
+      87.2% 12.8%,    /* 10 */
+      12.8% 12.8%,    /* 11 */
+      12.8% 87.2%,    /* 12 */
+      12.8% 87.2%,    /* 13 */
+      12.8% 100%,   /* 14 */
+      100% 100%,  /* 15 */
+      100% 0%     /* 16 */
+    );
+    &.no-clip {
+      top: 37%;
+      left: 50%;
+      width: 220px !important;
+      height: 220px !important;
+      @include breakpoint($tablet) {
+        width: 380px !important;
+        height: 380px !important;
+        top: 50%;
+        left: calc(48% - 250px);
+      }
+      transition:
+        height 0.15s ease-in,
+        width 0.15s ease-in,
+        left 0.15s ease-in,
+        clip-path 0.3s ease-out 1s
+      ;
+      clip-path: polygon(
+        0% 0%,      /* 1 */
+        0% 100%,    /* 2 */
+        12.8% 100%,   /* 3 */
+        12.8% 12.8%,    /* 4 */
+        70% 12.8%,    /* 5 */
+        70% 30%,    /* 6 */
+        87.2% 30%,    /* 7 */
+        87.2% 87.2%,    /* 8 */
+        70% 87.2%,    /* 9 */
+        70% 30%,    /* 10 */
+        30% 30%,    /* 11 */
+        30% 87.2%,    /* 12 */
+        12.8% 87.2%,    /* 13 */
+        12.8% 100%,   /* 14 */
+        100% 100%,  /* 15 */
+        100% 0%     /* 16 */
+      );
+    }
+  }
+}
+

@@ -1,0 +1,31 @@
+@import "../../Const.scss";
+
+.AboutText {
+  display: flex;
+  flex-direction: column;
+  @include breakpoint($tablet) {
+    flex-direction: row;
+  }
+  h3, p {
+    padding: 0 12px;
+    flex: 0 33.3333%;
+  }
+  h3 {
+    padding: 0 12px;
+    color: $nl-blue;
+    text-align: left;
+    margin-bottom: 30px;
+    @include breakpoint($tablet) {
+      margin-bottom: 0;
+      padding-left: 0;
+      text-align: right;
+    }
+  }
+  p {
+    color: $nl-grey;
+    margin-bottom: 20px;
+    @include breakpoint($tablet) {
+      margin-bottom: 0;
+    }
+  }
+}

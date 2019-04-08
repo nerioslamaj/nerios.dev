@@ -1,0 +1,63 @@
+@import "../../Const.scss";
+
+.Menu {
+  position: absolute;
+  background: none;
+  padding: 40px 0 0 0;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  text-align: center;
+  @extend %fade;
+  @include breakpoint($tablet) {
+    padding: 20px 0;
+    text-align: unset;
+    position: fixed;
+    background: linear-gradient(rgba(17,17,17,0.65), rgba(17,17,17,0));
+  }
+  &.menu-up {
+    transform: translateY(-100%);
+    @extend %fade;
+  }
+  .inner-menu {
+    .Logo {
+      svg {
+        height: 24px;
+        fill: $nl-white;
+        cursor: pointer;
+        @extend %fade;
+        @include breakpoint($tablet) {
+          height: 28px;
+        }
+        &:hover {
+          fill: $nl-red;
+          @extend %fade;
+        }
+      }
+    }
+    ul {
+      list-style: none;
+      float: right;
+      position: relative;
+      top: 5px;
+      display: none;
+      @include breakpoint($tablet) {
+        display: block;
+      }
+      li {
+        display: inline;
+        margin-left: 42px;
+        h6 {
+          color: $nl-white;
+          display: inline;
+          @extend %fade;
+          cursor: pointer;
+          &:hover {
+            color: $nl-red;
+            @extend %fade;
+          }
+        }
+      }
+    }
+  }
+}

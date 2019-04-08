@@ -1,0 +1,193 @@
+$nl-red: #f74f3f;
+$nl-blue: #3c3cfc;
+$nl-social: #7c1a0d;
+$nl-social-hv: #962415;
+$nl-white: #fff;
+$nl-grey: #4c4c4c;
+$nl-black: #000;
+$nl-dark: #111;
+
+$monitor: 1500px;
+$desktop-large: 1200px;
+$desktop: 992px;
+$tablet: 769px;
+$mobile: 576px;
+$mobile-small: 375px;
+
+%fade {
+	transition: all .3s ease-in-out;
+}
+
+@mixin breakpoint($size) {
+	@if $size==$mobile {
+		@media (min-width: $mobile) {
+			@content;
+		}
+	}
+	@if $size==$tablet {
+		@media (min-width: $tablet) {
+			@content;
+		}
+	}
+	@if $size==$desktop {
+		@media (min-width: $desktop) {
+			@content;
+		}
+	}
+	@if $size==$desktop-large {
+		@media (min-width: $desktop-large) {
+			@content;
+		}
+	}
+	@if $size==$monitor {
+		@media (min-width: $monitor) {
+			@content;
+		}
+	}
+	@if $size==$mobile {
+		@media (min-width: $mobile) {
+			@content;
+		}
+	}
+	@if $size==$tablet {
+		@media (min-width: $tablet) {
+			@content;
+		}
+	}
+	@if $size==$mobile-small {
+		@media (min-width: $mobile-small) {
+			@content;
+		}
+	}
+	@if $size==$mobile-small {
+		@media (min-width: $mobile-small) {
+			@content;
+		}
+	}
+	@if $size==$desktop {
+		@media (min-width: $desktop) {
+			@content;
+		}
+	}
+	@if $size==$desktop-large {
+		@media (min-width: $desktop-large) {
+			@content;
+		}
+	}
+}
+
+h1 {
+	font: normal 56px/1.2 'Futura-Bold', serif;
+	&.alt {
+		font: normal 32px/1.2 'Futura-Bold', serif;
+	}
+	&.name {
+		font: normal 38px/1.2 'Futura-Bold', serif;
+		@include breakpoint($tablet) {
+			font: normal 72px/1.2 'Futura-Bold', serif;
+		}
+	}
+}
+
+h2 {
+	font: normal 26px/1.2 'Futura-Bold', serif;
+	@include breakpoint($tablet) {
+		font: normal 20px/1.2 'Futura-Bold', serif;
+	}
+	&.alt {
+		font: normal 28px/1.2 'Futura-Bold', serif;
+		@include breakpoint($tablet) {
+			font: normal 44px/1.2 'Futura-Bold', serif;
+		}
+	}
+}
+
+h3 {
+	font: normal 20px/1.2 'Space Mono', monospace;
+	font-weight: 700;
+	&.alt {
+		font: normal 18px/1.2 'Space Mono', monospace;
+		font-weight: 700;
+		@include breakpoint($tablet) {
+			font: normal 24px/1.2 'Space Mono', monospace;
+			font-weight: 700;
+		}
+	}
+}
+
+h4 {
+	font: normal 18px/1.2 'Space Mono', monospace;
+	font-weight: 700;
+  @include breakpoint($tablet) {
+    font: normal 22px/1.2 'Space Mono', monospace;
+  }
+}
+
+h5 {
+	font: normal 18px/1.2 'Space Mono', monospace;
+	font-weight: 700;
+}
+
+h6 {
+	font: normal 16px/1.2 'Space Mono', monospace;
+	font-weight: 700;
+}
+
+p {
+	font: normal 16px/1.2 'Space Mono', monospace;
+	font-weight: 400;
+}
+
+span {
+	&.Button {
+		font: normal 16px/1.2 'Space Mono', monospace;
+		font-weight: 700;
+	}
+}
+
+.row {
+	width: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 0
+	}
+	33%,
+	66% {
+		opacity: 1
+	}
+	to {
+		opacity: .6
+	}
+}
+
+@keyframes floatUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

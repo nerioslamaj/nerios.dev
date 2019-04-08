@@ -1,0 +1,141 @@
+[
+  {
+    "id": "1",
+    "mini_title": "User Behaviour",
+    "mini_subtitle": "Artificial Intelligence",
+    "icon": "FaClock",
+    "thumbnail": "portfolioImg/user_thumb.jpg",
+    "inner_portfolio": {
+      "title": "Understanding user's behaviour through machine learning algorithms",
+      "paragraphs": [
+        "Working on a project",
+        "about some data"
+      ],
+      "date": "Feb 2019 - Jun 2019",
+      "worked_for": "Master Thesis",
+      "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
+      "images": [
+        "portfolioImg/user_1.jpg",
+        "portfolioImg/user_2.jpg",
+        "portfolioImg/user_3.jpg",
+        "portfolioImg/user_4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "mini_title": "Personal Finance",
+    "mini_subtitle": "Information Systems",
+    "icon": null,
+    "thumbnail": "portfolioImg/finance_thumb.jpg",
+    "inner_portfolio": {
+      "title": "Understanding user's behaviour through machine learning algorithms",
+      "paragraphs": [
+        "Working on a project",
+        "about some data"
+      ],
+      "date": "Feb 2019 - Jun 2019",
+      "worked_for": "Master Thesis",
+      "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
+      "images": [
+        "portfolioImg/user_1.jpg",
+        "portfolioImg/user_2.jpg",
+        "portfolioImg/user_3.jpg",
+        "portfolioImg/user_4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "mini_title": "Co-Meeting",
+    "mini_subtitle": "User Interface Design",
+    "icon": null,
+    "thumbnail": "portfolioImg/commit_thumb.jpg",
+    "inner_portfolio": {
+      "title": "Understanding user's behaviour through machine learning algorithms",
+      "paragraphs": [
+        "Working on a project",
+        "about some data"
+      ],
+      "date": "Feb 2019 - Jun 2019",
+      "worked_for": "Master Thesis",
+      "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
+      "images": [
+        "portfolioImg/user_1.jpg",
+        "portfolioImg/user_2.jpg",
+        "portfolioImg/user_3.jpg",
+        "portfolioImg/user_4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "mini_title": "Homegrown",
+    "mini_subtitle": "Visual Identity",
+    "icon": "FaClock",
+    "thumbnail": "portfolioImg/villa_thumb.jpg",
+    "inner_portfolio": {
+      "title": "Understanding user's behaviour through machine learning algorithms",
+      "paragraphs": [
+        "Working on a project",
+        "about some data"
+      ],
+      "date": "Feb 2019 - Jun 2019",
+      "worked_for": "Master Thesis",
+      "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
+      "images": [
+        "portfolioImg/user_1.jpg",
+        "portfolioImg/user_2.jpg",
+        "portfolioImg/user_3.jpg",
+        "portfolioImg/user_4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "mini_title": "Music Player",
+    "mini_subtitle": "Prototyping",
+    "icon": "FaClock",
+    "thumbnail": "portfolioImg/player_thumb.jpg",
+    "inner_portfolio": null
+  },
+  {
+    "id": "6",
+    "mini_title": "Helvetica Light",
+    "mini_subtitle": "CSS Watchface",
+    "icon": "FaClock",
+    "thumbnail": "portfolioImg/clock_thumb.jpg",
+    "inner_portfolio": null
+  },
+  {
+    "id": "7",
+    "mini_title": "List Toggle",
+    "mini_subtitle": "Prototyping",
+    "icon": "FaClock",
+    "thumbnail": "portfolioImg/toggle_thumb.jpg",
+    "inner_portfolio": null
+  },
+  {
+    "id": "8",
+    "mini_title": "Jo vetëm në 8 Mars",
+    "mini_subtitle": "Awareness Campaign",
+    "icon": "FaClock",
+    "thumbnail": "portfolioImg/mars_thumb.jpg",
+    "inner_portfolio": {
+      "title": "Understanding user's behaviour through machine learning algorithms",
+      "paragraphs": [
+        "Working on a project",
+        "about some data"
+      ],
+      "date": "Feb 2019 - Jun 2019",
+      "worked_for": "Master Thesis",
+      "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
+      "images": [
+        "portfolioImg/user_1.jpg",
+        "portfolioImg/user_2.jpg",
+        "portfolioImg/user_3.jpg",
+        "portfolioImg/user_4.jpg"
+      ]
+    }
+  }
+]

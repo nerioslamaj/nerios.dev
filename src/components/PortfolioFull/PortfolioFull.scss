@@ -1,0 +1,9 @@
+@import "../../Const.scss";
+
+.PortfolioFull {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: $nl-white;
+  z-index: 10;
+}

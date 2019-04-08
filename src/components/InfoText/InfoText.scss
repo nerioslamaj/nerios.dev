@@ -1,0 +1,33 @@
+@import "../../Const.scss";
+
+.InfoText {
+  display: flex;
+  margin-bottom: 140px;
+  flex-direction: column;
+  @include breakpoint($tablet) {
+    flex-direction: row;
+  }
+  div {
+    padding: 0 15px;
+    h2 {
+      color: $nl-red;
+      margin: 44px 0 24px 0;
+      @include breakpoint($tablet) {
+        margin: 0 0 40px 0;
+      }
+    }
+    p {
+      color: $nl-white;
+      margin-bottom: 20px;
+      a {
+        color: $nl-white;
+        cursor: pointer;
+        @extend %fade;
+        &:hover {
+          color: $nl-red;
+          @extend %fade;
+        }
+      }
+    }
+  }
+}

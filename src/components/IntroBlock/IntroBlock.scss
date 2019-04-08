@@ -1,0 +1,71 @@
+@import "../../Const.scss";
+
+.intro-block {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  width: 292px;
+  top: calc(37% + 220px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  flex-direction: column;
+  @include breakpoint($tablet) {
+    width: 522px;
+    top: 50%;
+    left: calc(48% + 250px);
+    text-align: left;
+  }
+  .name {
+    transform: translate(0, 0);
+    left: 0;
+    transition: all .3s;
+    position: relative;
+    color: $nl-white;
+    opacity: 1;
+    margin-bottom: 12px;
+    @include breakpoint($tablet) {
+      margin-bottom: 16px;
+    }
+    span {
+      margin-right: 1px;
+      opacity: 0;
+      animation-name: blink;
+      animation-fill-mode: both;
+      animation-duration: .3s;
+      animation-timing-function: ease;
+      @for $i from 0 to 11 {
+        &:nth-child(#{$i + 1}) {
+          animation-delay: #{($i/10) + 1}s;
+        }
+      }
+    }
+  }
+  h4, p, .btn {
+    display: inline-block;
+    transition: all .3s;
+    left: 0;
+    transform: translate(-50%, 0);
+    position: relative;
+    opacity: 0;
+    color: $nl-white;
+    animation: floatUp .2s ease;
+    animation-fill-mode: both;
+  }
+  h4 {
+    margin-bottom: 8px;
+    animation-delay: 1.85s;
+  }
+  p {
+    animation-delay: 2s;
+    margin-bottom: 12px;
+    font-size: 14px;
+    @include breakpoint($tablet) {
+      margin-bottom: 18px;
+      font-size: 16px;
+    }
+  }
+  .btn {
+    animation-delay: 2.15s;
+  }
+}
