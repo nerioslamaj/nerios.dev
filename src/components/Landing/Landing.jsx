@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Shader1 from '../Shader/Shader1.jsx';
 import IntroBlock from '../IntroBlock/IntroBlock.jsx';
+import MeNowModal from '../MeNowModal/MeNowModal.jsx';
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
   
 
@@ -41,6 +42,7 @@ class Landing extends Component {
       <div className="Landing">
         <Shader1></Shader1>
         {introBlock}
+        <MeNowModal></MeNowModal>
       </div>
     );
   }
