@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+import { MdClose } from 'react-icons/md';
 import './PortfolioFull.scss';
 
 class PortfolioFull extends Component {
@@ -17,7 +18,10 @@ class PortfolioFull extends Component {
     const item = this.props.portfolioData;
     return (
       <div className="PortfolioFull">
-        <button onClick={() => this.props.dispatch({ type: 'CLOSE_PORTFOLIO', data: null })}>CLOSE</button>
+        <div className="inner-PortfolioFull">
+
+          <span className="cancel" onClick={() => this.props.dispatch({ type: 'CLOSE_PORTFOLIO', data: null })}><MdClose/></span>
+        </div>
       </div>
     );
   }

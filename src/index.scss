@@ -10,7 +10,8 @@
 }
 body {
   opacity: 0;
-  animation: fadeIn 0.3s ease 0.3s;
+  animation: fadeIn 0.3s ease;
+  animation-delay: 0.3s;
   background-color: #111;
   animation-fill-mode: both;
   margin: 0;
