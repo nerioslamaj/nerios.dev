@@ -7,11 +7,11 @@ class MeNowModal extends Component {
     // const item = this.props.portfolioData;
     return (
       <div className="MeNowModal">
-        <h2>Recent Update</h2>
-        <h6>Las Update: 09th of April 2019</h6>
+        <h1 className="alt">Recent Update</h1>
+        <h6>09th of April 2019</h6>
         <p>Studying M.Sc. Computer Science at London MET and working on two freelance projects for a company in US. Also I am constantly improving my coding skills by following some courses on CodeSchool.</p>
-        <p>Currently reading “Steve Jobs” by Walter Isaacson.</p>
-        <Button btnColor={'#f74f3f'}></Button>
+        <p>Currently reading <a href="#">“Steve Jobs”</a> by Walter Isaacson.</p>
+        <Button btnColor={'#f74f3f'}  btnText={'Close'} btnClick={'CLOSE_MODAL'}></Button>
       </div>
     );
   }

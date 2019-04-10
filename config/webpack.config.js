@@ -119,7 +119,7 @@ module.exports = function(webpackEnv) {
     bail: isEnvProduction,
 
 
-    // devtool: '#inline-source-map',
+    devtool: '#inline-source-map',
 
     
     // devtool: isEnvProduction

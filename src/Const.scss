@@ -92,7 +92,7 @@ h1 {
 h2 {
 	font: normal 26px/1.2 'Futura-Bold', serif;
 	@include breakpoint($tablet) {
-		font: normal 20px/1.2 'Futura-Bold', serif;
+		font: normal 22px/1.2 'Futura-Bold', serif;
 	}
 	&.alt {
 		font: normal 28px/1.2 'Futura-Bold', serif;
@@ -129,18 +129,18 @@ h5 {
 }
 
 h6 {
-	font: normal 16px/1.2 'Space Mono', monospace;
+	font: normal 16px/1.5 'Space Mono', monospace;
 	font-weight: 700;
 }
 
 p {
-	font: normal 16px/1.2 'Space Mono', monospace;
+	font: normal 16px/1.5 'Space Mono', monospace;
 	font-weight: 400;
 }
 
 span {
 	&.Button {
-		font: normal 16px/1.2 'Space Mono', monospace;
+		font: normal 16px/1.5 'Space Mono', monospace;
 		font-weight: 700;
 	}
 }

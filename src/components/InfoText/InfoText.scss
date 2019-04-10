@@ -24,7 +24,7 @@
         cursor: pointer;
         @extend %fade;
         &:hover {
-          color: $nl-red;
+          background-color: $nl-blue;
           @extend %fade;
         }
       }
