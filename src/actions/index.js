@@ -1,4 +1,4 @@
-export const ButtonClick = {
-  OPEN_MODAL: 'OPEN_MODAL',
-  CLOSE_MODAL: 'CLOSE_MODAL'
-}
+export const SelectedPortfolioItem = data => ({
+  type: 'OPEN_PORTFOLIO',
+  data
+})
