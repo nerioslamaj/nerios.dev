@@ -14,7 +14,7 @@ class IntroBlock extends Component {
         <h4>Front End Engineer</h4>
         <p>Creating Digital Products with passion</p>
         <div className="btn">
-          <Button btnColor={'#f74f3f'}></Button>
+          <Button btnColor={'#f74f3f'} btnText={'Recent Update'} btnClick={'OPEN_MODAL'}></Button>
         </div>
       </div>
     );

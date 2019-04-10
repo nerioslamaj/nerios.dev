@@ -25,11 +25,12 @@ body {
     position: absolute;
     top: 50%;
     transform: translate(-50%,-50%);
-    z-index: 1;
+    z-index: 3;
     transition:
       height 0.15s ease-out 0.15s,
       width 0.15s ease-out 0.15s,
       left 0.15s ease-in 0.15s,
+      top 0.15s ease-in 0.15s,
       clip-path 0.15s ease-in
     ;
     left: 50%;
@@ -56,6 +57,7 @@ body {
     &.no-clip {
       top: 37%;
       left: 50%;
+      z-index: 1;
       width: 220px !important;
       height: 220px !important;
       @include breakpoint($tablet) {
@@ -68,7 +70,8 @@ body {
         height 0.15s ease-in,
         width 0.15s ease-in,
         left 0.15s ease-in,
-        clip-path 0.3s ease-out 1s
+        top 0.15s ease-in,
+        clip-path 0.2s ease-out 0.4s
       ;
       clip-path: polygon(
         0% 0%,      /* 1 */

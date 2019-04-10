@@ -1,0 +1,41 @@
+@import "../../Const.scss";
+
+.MeNowModal {
+  position: fixed;
+  opacity: 0;
+  animation: fadeIn 0.3s ease 0.3s;
+  animation-fill-mode: both;
+  background-color: $nl-white;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 480px;
+  padding: 60px 50px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  h1 {
+    margin-bottom: 10px;
+  }
+  h6 {
+    margin-bottom: 40px;
+    color: $nl-blue;
+  }
+  p {
+    margin-bottom: 20px;
+    a {
+      @extend %fade;
+      color: $nl-black;
+      &:hover {
+        @extend %fade;
+        background-color: $nl-blue;
+      }
+    }
+  }
+  .Button {
+    float: right;
+    margin-top: 20px;
+  }
+}

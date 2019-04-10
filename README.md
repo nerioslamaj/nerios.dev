@@ -3,4 +3,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Demo
 
 <!-- [nerioslamaj.com](http://nerioslamaj.com) -->
-[https://github.com/nerioslamaj/nerioslamaj.com](https://github.com/nerioslamaj/nerioslamaj.com)
+[https://nerioslamaj.github.io/nerioslamaj.com/](https://nerioslamaj.github.io/nerioslamaj.com/)
