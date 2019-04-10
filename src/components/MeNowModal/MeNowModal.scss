@@ -30,6 +30,7 @@
       color: $nl-black;
       &:hover {
         @extend %fade;
+        color: $nl-white;
         background-color: $nl-blue;
       }
     }
