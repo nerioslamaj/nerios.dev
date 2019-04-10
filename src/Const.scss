@@ -103,29 +103,29 @@ h2 {
 }
 
 h3 {
-	font: normal 20px/1.2 'Space Mono', monospace;
+	font: normal 20px/1.5 'Space Mono', monospace;
 	font-weight: 700;
 	&.alt {
-		font: normal 18px/1.2 'Space Mono', monospace;
+		font: normal 18px/1.5 'Space Mono', monospace;
 		font-weight: 700;
 		@include breakpoint($tablet) {
-			font: normal 24px/1.2 'Space Mono', monospace;
+			font: normal 24px/1.5 'Space Mono', monospace;
 			font-weight: 700;
 		}
 	}
 }
 
 h4 {
-	font: normal 18px/1.2 'Space Mono', monospace;
+	font: normal 18px/1.5 'Space Mono', monospace;
 	font-weight: 700;
   @include breakpoint($tablet) {
-    font: normal 22px/1.2 'Space Mono', monospace;
+    font: normal 22px/1.5 'Space Mono', monospace;
 		font-weight: 700;
   }
 }
 
 h5 {
-	font: normal 18px/1.2 'Space Mono', monospace;
+	font: normal 18px/1.5 'Space Mono', monospace;
 	font-weight: 700;
 }
 
@@ -190,5 +190,29 @@ span {
 	}
 	100% {
 		opacity: 1;
+	}
+}
+
+@keyframes colFadeIn {
+	0% {
+		background-color: transparent;
+	}
+	100% {
+		background-color: $nl-white;
+	}
+}
+
+@keyframes portfolioShow {
+	0% {
+		left: 0;
+		right: 100vw;
+	}
+	50% {
+		left: 0;
+		right: 0;
+	}
+	100% {
+		left: 100vw;
+		right: 0;
 	}
 }
