@@ -20,7 +20,8 @@
         "portfolioImg/user_3.jpg",
         "portfolioImg/user_4.jpg"
       ]
-    }
+    },
+    "url": null
   },
   {
     "id": "2",
@@ -43,7 +44,8 @@
         "portfolioImg/user_3.jpg",
         "portfolioImg/user_4.jpg"
       ]
-    }
+    },
+    "url": null
   },
   {
     "id": "3",
@@ -66,7 +68,8 @@
         "portfolioImg/user_3.jpg",
         "portfolioImg/user_4.jpg"
       ]
-    }
+    },
+    "url": null
   },
   {
     "id": "4",
@@ -89,7 +92,8 @@
         "portfolioImg/user_3.jpg",
         "portfolioImg/user_4.jpg"
       ]
-    }
+    },
+    "url": null
   },
   {
     "id": "5",
@@ -97,7 +101,8 @@
     "mini_subtitle": "Prototyping",
     "icon": "FaClock",
     "thumbnail": "portfolioImg/player_thumb.jpg",
-    "inner_portfolio": null
+    "inner_portfolio": null,
+    "url": "https://codepen.io/nerios/full/oxvxWM/"
   },
   {
     "id": "6",
@@ -105,7 +110,8 @@
     "mini_subtitle": "CSS Watchface",
     "icon": "FaClock",
     "thumbnail": "portfolioImg/clock_thumb.jpg",
-    "inner_portfolio": null
+    "inner_portfolio": null,
+    "url": "https://codepen.io/nerios/full/oxvxWM/"
   },
   {
     "id": "7",
@@ -113,7 +119,8 @@
     "mini_subtitle": "Prototyping",
     "icon": "FaClock",
     "thumbnail": "portfolioImg/toggle_thumb.jpg",
-    "inner_portfolio": null
+    "inner_portfolio": null,
+    "url": "https://codepen.io/nerios/full/oxvxWM/"
   },
   {
     "id": "8",
@@ -136,6 +143,7 @@
         "portfolioImg/user_3.jpg",
         "portfolioImg/user_4.jpg"
       ]
-    }
+    },
+    "url": null
   }
 ]
