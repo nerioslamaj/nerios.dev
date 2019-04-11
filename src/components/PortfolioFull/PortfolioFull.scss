@@ -42,24 +42,96 @@
   }
   .inner-PortfolioFull {
     opacity: 0;
+    padding: 100px 0 0 0;
     animation: fadeIn 0s ease;
     animation-delay: 0.3s;
-    background-color: #111;
     animation-fill-mode: both;
-    .cancel {
-      position: absolute;
+    @include breakpoint($tablet) {
+      padding: 120px 0 0 0;
+    }
+    .action {
+      position: fixed;
       top: 20px;
       right: 20px;
-      font-size: 30px;
-      cursor: pointer;
-      line-height: 0.8;
-      color: $nl-black;
-      @extend %fade;
-      &:hover {
-        color: $nl-white;
-        background-color: $nl-blue;
+      span {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 26px;
+        cursor: pointer;
+        line-height: 0.8;
+        padding: 6px;
+        color: $nl-black;
+        background-color: $nl-light;
         @extend %fade;
+        &:hover {
+          color: $nl-white;
+          background-color: $nl-blue;
+          @extend %fade;
+        }
+        &.cancel {
+          background-color: $nl-red;
+          color: $nl-white;
+          @extend %fade;
+          &:hover {
+            background-color: $nl-blue;
+            @extend %fade;
+          }
+        }
       }
+    }
+    .AllText {
+      margin-bottom: 60px;
+      padding: 0 30px;
+      @include breakpoint($tablet) {
+        margin-bottom: 120px;
+      }
+      h1.name {
+        max-width: 900px;
+        margin-bottom: 60px;
+        @include breakpoint($tablet) {
+          font-size: 56px;
+          margin-bottom: 80px;
+        }
+      }
+      .body {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        @include breakpoint($tablet) {
+          flex-direction: row;
+        }
+        .details {
+          width: 100%;
+          margin-bottom: 40px;
+          @include breakpoint($tablet) {
+            margin-bottom: 0;
+            flex: 0 25%;
+          }
+          p {
+            color: $nl-blue;
+          }
+          h6 {
+            margin-bottom: 20px;
+            @include breakpoint($tablet) {
+              margin-bottom: 24px;
+            }
+          }
+        }
+        .paragraphs {
+          margin-left: 0;
+          @include breakpoint($tablet) {
+            margin-left: 15%;
+            flex: 0 75%;
+          }
+          p {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+    img {
+      display: block;
+      width: 100%;
     }
   }
 }

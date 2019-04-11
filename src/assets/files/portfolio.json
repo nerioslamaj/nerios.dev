@@ -3,7 +3,7 @@
     "id": "1",
     "active": false,
     "mini_title": "User Behaviour",
-    "mini_subtitle": "Machine Learning (Coming Soon)",
+    "mini_subtitle": "JS Library (Coming Soon)",
     "icon": "MdWatchLater",
     "thumbnail": "portfolioImg/user_thumb.jpg",
     "inner_portfolio": {
@@ -20,7 +20,9 @@
         "portfolioImg/user_2.jpg",
         "portfolioImg/user_3.jpg",
         "portfolioImg/user_4.jpg"
-      ]
+      ],
+      "link": null,
+      "video": null
     },
     "url": null
   },
@@ -45,7 +47,9 @@
         "portfolioImg/user_2.jpg",
         "portfolioImg/user_3.jpg",
         "portfolioImg/user_4.jpg"
-      ]
+      ],
+      "link": null,
+      "video": null
     },
     "url": null
   },
@@ -57,20 +61,22 @@
     "icon": null,
     "thumbnail": "portfolioImg/commit_thumb.jpg",
     "inner_portfolio": {
-      "title": "Understanding user's behaviour through machine learning algorithms",
+      "title": "Co-Meeting, setting up conferences online",
       "paragraphs": [
-        "Working on a project",
-        "about some data"
+        "Co-Meeting allows business owners to sell their conference and meetings rooms online on this platform, in order to effectively promote and market their meeting space online and drive meeting room bookings. It also allows you to book amazing meeting venues around Albania, trying to fasten the process of event organizations.",
+        "I was hired by commit to create the graphic user interface and the user flow of this project, based on user needs and their business objectives. Understanding the technical principles of how the platform will work was necessary in order to make the next steps easier to developers."
       ],
-      "date": "Feb 2019 - Jun 2019",
-      "worked_for": "Master Thesis",
-      "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
+      "date": "November 2016",
+      "worked_for": "commitsoftware.it",
+      "categories": "UI / UX / Design",
       "images": [
-        "portfolioImg/user_1.jpg",
-        "portfolioImg/user_2.jpg",
-        "portfolioImg/user_3.jpg",
-        "portfolioImg/user_4.jpg"
-      ]
+        "portfolioImg/commit_1.jpg",
+        "portfolioImg/commit_2.jpg",
+        "portfolioImg/commit_3.jpg",
+        "portfolioImg/commit_4.jpg"
+      ],
+      "link": null,
+      "video": null
     },
     "url": null
   },
@@ -95,7 +101,9 @@
         "portfolioImg/user_2.jpg",
         "portfolioImg/user_3.jpg",
         "portfolioImg/user_4.jpg"
-      ]
+      ],
+      "link": null,
+      "video": null
     },
     "url": null
   },
@@ -117,7 +125,7 @@
     "icon": null,
     "thumbnail": "portfolioImg/villa_thumb.jpg",
     "inner_portfolio": {
-      "title": "Understanding user's behaviour through machine learning algorithms",
+      "title": "Your next favorite Offline Social Media",
       "paragraphs": [
         "Working on a project",
         "about some data"
@@ -130,7 +138,9 @@
         "portfolioImg/user_2.jpg",
         "portfolioImg/user_3.jpg",
         "portfolioImg/user_4.jpg"
-      ]
+      ],
+      "link": null,
+      "video": null
     },
     "url": null
   },
@@ -172,7 +182,7 @@
     "icon": null,
     "thumbnail": "portfolioImg/mars_thumb.jpg",
     "inner_portfolio": {
-      "title": "Understanding user's behaviour through machine learning algorithms",
+      "title": "Creating awareness, not only in 8th of March!",
       "paragraphs": [
         "Working on a project",
         "about some data"
@@ -185,7 +195,9 @@
         "portfolioImg/user_2.jpg",
         "portfolioImg/user_3.jpg",
         "portfolioImg/user_4.jpg"
-      ]
+      ],
+      "link": null,
+      "video": "https://www.youtube.com/embed/6io6dDvOWAQ?controls=0"
     },
     "url": null
   }
