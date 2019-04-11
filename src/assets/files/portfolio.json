@@ -127,17 +127,17 @@
     "inner_portfolio": {
       "title": "Your next favorite Offline Social Media",
       "paragraphs": [
-        "Working on a project",
-        "about some data"
+        "Together with British Council and Municipality of Tirana we gave a visual and digital identity to Enver Hoxha’s villa, now turned into a recreational space for promoting music, social activities and visual arts.",
+        "Enver Hoxha is the well known Albanian dictator that lead the country for 45 years. His villa is located in “The Block” of Tirana, before a forbiden area for regular people and now one of the most frequented ones in Tirana by all groups of people. So we worked together to make a better use of this space, that has been untouched for years."
       ],
-      "date": "Feb 2019 - Jun 2019",
-      "worked_for": "Master Thesis",
-      "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
+      "date": "May 2017",
+      "worked_for": "British Council & Municipality of Tirana",
+      "categories": "Branding / UX / Digital Strategy / Research",
       "images": [
-        "portfolioImg/user_1.jpg",
-        "portfolioImg/user_2.jpg",
-        "portfolioImg/user_3.jpg",
-        "portfolioImg/user_4.jpg"
+        "portfolioImg/villa_1.jpg",
+        "portfolioImg/villa_2.jpg",
+        "portfolioImg/villa_3.jpg",
+        "portfolioImg/villa_4.jpg"
       ],
       "link": null,
       "video": null
@@ -184,18 +184,14 @@
     "inner_portfolio": {
       "title": "Creating awareness, not only in 8th of March!",
       "paragraphs": [
-        "Working on a project",
-        "about some data"
+        "60% of Albanian women over 18 have reported experiencing psychological, physical and/or sexual violence. Despite this disturbing percentage, victims still remain undisclosed and unnoticed. So we wanted not only to raise awareness of what's going on, but we were also interested in capturing the way people would react to certain behaviors and events.",
+        "Challenging viral social media and offline interactive installations were the best parts of the project execution. It took us 3 months of hard work, design thinking and planning to complete the whole image. Also we managed to maintain a strong harmonious communication between UNDP, Ministry of Social Welfare, Swedish Embassy and Video Studio Team.",
+        "#JoVetemNe8Mars came out to be UNDP Albania's most successful online campaign, with +50,000 views on their YouTube channel and +400,000 views in total including all observed social medias. During the physical campaign there were recorded 16 police reports and more than 30 positive reactions."
       ],
-      "date": "Feb 2019 - Jun 2019",
-      "worked_for": "Master Thesis",
-      "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
-      "images": [
-        "portfolioImg/user_1.jpg",
-        "portfolioImg/user_2.jpg",
-        "portfolioImg/user_3.jpg",
-        "portfolioImg/user_4.jpg"
-      ],
+      "date": "March 2016",
+      "worked_for": "UNDP",
+      "categories": "Project Managing / Advertising / Strategy",
+      "images": [],
       "link": null,
       "video": "https://www.youtube.com/embed/6io6dDvOWAQ?controls=0"
     },

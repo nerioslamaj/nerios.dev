@@ -18,6 +18,7 @@ class PortfolioFull extends Component {
     const item = this.props.portfolioData.inner_portfolio;
     let paragraphs = [];
     let images = [];
+    let video;
 
     item.paragraphs.map((x, i) => {
       paragraphs.push(<p key={ i }>{ x }</p>)
@@ -26,6 +27,10 @@ class PortfolioFull extends Component {
     item.images.map((x, i) => {
       images.push(<img alt={ "Image " + (i+1) } key={ i } src={ x }/>)
     })
+
+    if(item.video) {
+      video = <iframe src={item.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+    }
 
     return (
       <div className="PortfolioFull">
@@ -52,6 +57,7 @@ class PortfolioFull extends Component {
             </div>
           </div>
           { images }
+          { video }
         </div>
       </div>
     );
