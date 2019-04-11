@@ -15,16 +15,16 @@ class IconsSkills extends Component {
           <h6>Development</h6>
         </div>
         <div>
+          <img src={user} alt="User Experience"/>
+          <h6>Prototyping</h6>
+        </div>
+        <div>
           <img src={design} alt="Design"/>
           <h6>Design</h6>
         </div>
         <div>
           <img src={project} alt="Project Managing"/>
           <h6>Project Managing</h6>
-        </div>
-        <div>
-          <img src={user} alt="User Experience"/>
-          <h6>User Experience</h6>
         </div>
       </div>
     );

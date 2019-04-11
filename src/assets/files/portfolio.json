@@ -88,21 +88,18 @@
     "icon": null,
     "thumbnail": "portfolioImg/supercop_thumb.jpg",
     "inner_portfolio": {
-      "title": "Understanding user's behaviour through machine learning algorithms",
+      "title": "Supercop: A Chrome Extension for more accurate search results",
       "paragraphs": [
-        "Working on a project",
-        "about some data"
+        "Supercop Pro extension is a one-stop solution to purchasing limited goods from Supreme New York across the web. I was in charge of designing the User Interface and develop the Frontend of the Supercop Chrome Extension.",
+        "What I really enjoyed about this project was the ability to cover every part of its scope and taking care of details in both UI development and UI design."
       ],
-      "date": "Feb 2019 - Jun 2019",
-      "worked_for": "Master Thesis",
-      "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
+      "date": "December 2017",
+      "worked_for": "Supercop",
+      "categories": "UI Development / UI Design / Chrome Extension",
       "images": [
-        "portfolioImg/user_1.jpg",
-        "portfolioImg/user_2.jpg",
-        "portfolioImg/user_3.jpg",
-        "portfolioImg/user_4.jpg"
+        "portfolioImg/supercop_1.jpg"
       ],
-      "link": null,
+      "link": "http://nerioslamaj.com/code/SuperCop/",
       "video": null
     },
     "url": null

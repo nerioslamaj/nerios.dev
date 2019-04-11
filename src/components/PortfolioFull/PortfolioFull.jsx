@@ -19,6 +19,7 @@ class PortfolioFull extends Component {
     let paragraphs = [];
     let images = [];
     let video;
+    let link;
 
     item.paragraphs.map((x, i) => {
       paragraphs.push(<p key={ i }>{ x }</p>)
@@ -32,13 +33,15 @@ class PortfolioFull extends Component {
       video = <iframe src={item.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     }
 
+    if(item.link) {
+      link = <h6><a href={item.link} target="_blank">Live Demo</a></h6>
+    }
+
     return (
       <div className="PortfolioFull">
         <div className="inner-PortfolioFull">
           <div className="action">
             <span onClick={ () => this.props.dispatch({ type: 'CLOSE_PORTFOLIO', data: null }) } className="cancel"><MdClose/></span>
-            {/* <span onClick={ () => this.props.dispatch({ type: 'CLOSE_PORTFOLIO', data: null }) }><MdArrowForward/></span>
-            <span onClick={ () => this.props.dispatch({ type: 'CLOSE_PORTFOLIO', data: null }) }><MdArrowBack/></span> */}
           </div>
           <div className="AllText container">
             <h1 className="name">{ item.title }</h1>
@@ -53,6 +56,7 @@ class PortfolioFull extends Component {
               </div>
               <div className="paragraphs">
                 { paragraphs }
+                { link }
               </div>
             </div>
           </div>
