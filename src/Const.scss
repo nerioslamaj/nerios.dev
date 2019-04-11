@@ -3,6 +3,7 @@ $nl-blue: #3c3cfc;
 $nl-social: #7c1a0d;
 $nl-social-hv: #962415;
 $nl-white: #fff;
+$nl-light: #f1f1f1;
 $nl-grey: #4c4c4c;
 $nl-black: #000;
 $nl-dark: #111;
@@ -137,6 +138,9 @@ h6 {
 p {
 	font: normal 16px/1.5 'Space Mono', monospace;
 	font-weight: 400;
+	&.alt {
+		font: normal 14px/1.5 'Space Mono', monospace;
+	}
 }
 
 span {
