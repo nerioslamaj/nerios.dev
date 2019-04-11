@@ -63,6 +63,7 @@
       width: 100%;
       height: 100%;
       background-color: rgba(60, 60, 252, .75);
+      padding: 20px;
       opacity: 0;
       @extend %fade;
     }
@@ -75,6 +76,11 @@
         color: $nl-white;
         margin: 0;
         font-weight: 400;
+        svg {
+          position: relative;
+          top: 3px;
+          margin-left: 10px;
+        }
       }
       h1.alt {
         color: $nl-white;
