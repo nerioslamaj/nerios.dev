@@ -1,9 +1,10 @@
 [
   {
     "id": "1",
+    "active": false,
     "mini_title": "User Behaviour",
-    "mini_subtitle": "Artificial Intelligence",
-    "icon": "FaClock",
+    "mini_subtitle": "Machine Learning (Coming Soon)",
+    "icon": "MdWatchLater",
     "thumbnail": "portfolioImg/user_thumb.jpg",
     "inner_portfolio": {
       "title": "Understanding user's behaviour through machine learning algorithms",
@@ -25,12 +26,13 @@
   },
   {
     "id": "2",
+    "active": false,
     "mini_title": "Personal Finance",
-    "mini_subtitle": "Information Systems",
-    "icon": null,
+    "mini_subtitle": "Full Stack (Coming Soon)",
+    "icon": "MdWatchLater",
     "thumbnail": "portfolioImg/finance_thumb.jpg",
     "inner_portfolio": {
-      "title": "Understanding user's behaviour through machine learning algorithms",
+      "title": "Keeping track of personal finance",
       "paragraphs": [
         "Working on a project",
         "about some data"
@@ -49,6 +51,7 @@
   },
   {
     "id": "3",
+    "active": true,
     "mini_title": "Co-Meeting",
     "mini_subtitle": "User Interface Design",
     "icon": null,
@@ -73,10 +76,11 @@
   },
   {
     "id": "4",
-    "mini_title": "Homegrown",
-    "mini_subtitle": "Visual Identity",
-    "icon": "FaClock",
-    "thumbnail": "portfolioImg/villa_thumb.jpg",
+    "active": true,
+    "mini_title": "Supercop",
+    "mini_subtitle": "Chrome Extension",
+    "icon": null,
+    "thumbnail": "portfolioImg/supercop_thumb.jpg",
     "inner_portfolio": {
       "title": "Understanding user's behaviour through machine learning algorithms",
       "paragraphs": [
@@ -97,36 +101,75 @@
   },
   {
     "id": "5",
+    "active": true,
     "mini_title": "Music Player",
     "mini_subtitle": "Prototyping",
-    "icon": "FaClock",
+    "icon": "MdOpenInNew",
     "thumbnail": "portfolioImg/player_thumb.jpg",
     "inner_portfolio": null,
     "url": "https://codepen.io/nerios/full/oxvxWM/"
   },
   {
     "id": "6",
-    "mini_title": "Helvetica Light",
-    "mini_subtitle": "CSS Watchface",
-    "icon": "FaClock",
-    "thumbnail": "portfolioImg/clock_thumb.jpg",
+    "active": true,
+    "mini_title": "Homegrown",
+    "mini_subtitle": "Visual Identity",
+    "icon": null,
+    "thumbnail": "portfolioImg/villa_thumb.jpg",
+    "inner_portfolio": {
+      "title": "Understanding user's behaviour through machine learning algorithms",
+      "paragraphs": [
+        "Working on a project",
+        "about some data"
+      ],
+      "date": "Feb 2019 - Jun 2019",
+      "worked_for": "Master Thesis",
+      "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
+      "images": [
+        "portfolioImg/user_1.jpg",
+        "portfolioImg/user_2.jpg",
+        "portfolioImg/user_3.jpg",
+        "portfolioImg/user_4.jpg"
+      ]
+    },
+    "url": null
+  },
+  {
+    "id": "9",
+    "active": true,
+    "mini_title": "List Toggle",
+    "mini_subtitle": "Prototyping",
+    "icon": "MdOpenInNew",
+    "thumbnail": "portfolioImg/toggle_thumb.jpg",
     "inner_portfolio": null,
-    "url": "https://codepen.io/nerios/full/oxvxWM/"
+    "url": "https://codepen.io/nerios/full/XdJgKz/"
   },
   {
     "id": "7",
-    "mini_title": "List Toggle",
+    "active": true,
+    "mini_title": "Helvetica Light",
     "mini_subtitle": "Prototyping",
-    "icon": "FaClock",
-    "thumbnail": "portfolioImg/toggle_thumb.jpg",
+    "icon": "MdOpenInNew",
+    "thumbnail": "portfolioImg/clock_thumb.jpg",
     "inner_portfolio": null,
-    "url": "https://codepen.io/nerios/full/oxvxWM/"
+    "url": "https://codepen.io/nerios/full/jWdQZq/"
   },
   {
     "id": "8",
+    "active": true,
+    "mini_title": "UIhaus Dashboard",
+    "mini_subtitle": "Prototyping",
+    "icon": "MdOpenInNew",
+    "thumbnail": "portfolioImg/uihaus_thumb.jpg",
+    "inner_portfolio": null,
+    "url": "https://codepen.io/nerios/full/MKNgQO/"
+  },
+  {
+    "id": "10",
+    "active": true,
     "mini_title": "Jo vetëm në 8 Mars",
     "mini_subtitle": "Awareness Campaign",
-    "icon": "FaClock",
+    "icon": null,
     "thumbnail": "portfolioImg/mars_thumb.jpg",
     "inner_portfolio": {
       "title": "Understanding user's behaviour through machine learning algorithms",
