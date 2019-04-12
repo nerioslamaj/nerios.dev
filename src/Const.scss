@@ -78,27 +78,27 @@ $mobile-small: 375px;
 }
 
 h1 {
-	font: normal 56px/1.2 'Futura-Bold', serif;
+	font: normal 56px/1.2 'Futura-Bold', sans-serif;
 	&.alt {
-		font: normal 32px/1.2 'Futura-Bold', serif;
+		font: normal 32px/1.2 'Futura-Bold', sans-serif;
 	}
 	&.name {
-		font: normal 38px/1.2 'Futura-Bold', serif;
+		font: normal 38px/1.2 'Futura-Bold', sans-serif;
 		@include breakpoint($tablet) {
-			font: normal 72px/1.2 'Futura-Bold', serif;
+			font: normal 72px/1.2 'Futura-Bold', sans-serif;
 		}
 	}
 }
 
 h2 {
-	font: normal 26px/1.2 'Futura-Bold', serif;
+	font: normal 26px/1.2 'Futura-Bold', sans-serif;
 	@include breakpoint($tablet) {
-		font: normal 22px/1.2 'Futura-Bold', serif;
+		font: normal 22px/1.2 'Futura-Bold', sans-serif;
 	}
 	&.alt {
-		font: normal 28px/1.2 'Futura-Bold', serif;
+		font: normal 28px/1.2 'Futura-Bold', sans-serif;
 		@include breakpoint($tablet) {
-			font: normal 44px/1.2 'Futura-Bold', serif;
+			font: normal 44px/1.2 'Futura-Bold', sans-serif;
 		}
 	}
 }
