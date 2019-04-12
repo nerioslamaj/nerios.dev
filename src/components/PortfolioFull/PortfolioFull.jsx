@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
-import { MdClose, MdArrowForward, MdArrowBack } from 'react-icons/md';
+import { TouchScrollable } from 'react-scrolllock';
+import { MdClose } from 'react-icons/md';
 import './PortfolioFull.scss';
 
 class PortfolioFull extends Component {
 
-  componentDidMount() {
-    disableBodyScroll(window);
-  }
-
-  componentWillUnmount() {
-    clearAllBodyScrollLocks(window);
-  }
-
+  state = { lockScroll: false }
+  
   render() {
     const item = this.props.portfolioData.inner_portfolio;
     let paragraphs = [];
@@ -38,8 +32,9 @@ class PortfolioFull extends Component {
     }
 
     return (
+      <TouchScrollable>
       <div className="PortfolioFull">
-        <div className="inner-PortfolioFull">
+        <div className="inner-PortfolioFull"  body-scroll-lock-ignore>
           <div className="action">
             <span onClick={ () => this.props.dispatch({ type: 'CLOSE_PORTFOLIO', data: null }) } className="cancel"><MdClose/></span>
           </div>
@@ -64,6 +59,7 @@ class PortfolioFull extends Component {
           { video }
         </div>
       </div>
+      </TouchScrollable>
     );
   }
 }
