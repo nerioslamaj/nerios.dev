@@ -12,8 +12,8 @@
   z-index: 10;
   top: 0;
   left: 0;
-  z-index: 4;
-  overflow: scroll;
+  z-index: 6;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   &::after {
     z-index: 5;
