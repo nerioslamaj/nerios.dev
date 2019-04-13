@@ -33,32 +33,32 @@ class PortfolioFull extends Component {
 
     return (
       <TouchScrollable>
-      <div className="PortfolioFull">
-        <div className="inner-PortfolioFull"  body-scroll-lock-ignore>
-          <div className="action">
-            <span onClick={ () => this.props.dispatch({ type: 'CLOSE_PORTFOLIO', data: null }) } className="cancel"><MdClose/></span>
-          </div>
-          <div className="AllText container">
-            <h1 className="name">{ item.title }</h1>
-            <div className="body">
-              <div className="details">
-                <p className="alt">Worked in</p>
-                <h6>{ item.date }</h6>
-                <p className="alt">Client</p>
-                <h6>{ item.worked_for }</h6>
-                <p className="alt">Categories</p>
-                <h6>{ item.categories }</h6>
-              </div>
-              <div className="paragraphs">
-                { paragraphs }
-                { link }
+        <div className="PortfolioFull">
+          <div className="inner-PortfolioFull"  body-scroll-lock-ignore>
+            <div className="action">
+              <span onClick={ () => this.props.dispatch({ type: 'CLOSE_PORTFOLIO', data: null }) } className="cancel"><MdClose/></span>
+            </div>
+            <div className="AllText container">
+              <h1 className="name">{ item.title }</h1>
+              <div className="body">
+                <div className="details">
+                  <p className="alt">Worked in</p>
+                  <h6>{ item.date }</h6>
+                  <p className="alt">Client</p>
+                  <h6>{ item.worked_for }</h6>
+                  <p className="alt">Categories</p>
+                  <h6>{ item.categories }</h6>
+                </div>
+                <div className="paragraphs">
+                  { paragraphs }
+                  { link }
+                </div>
               </div>
             </div>
+            { images }
+            { video }
           </div>
-          { images }
-          { video }
         </div>
-      </div>
       </TouchScrollable>
     );
   }

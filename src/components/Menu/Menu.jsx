@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import '../../Const.scss';
 import './Menu.scss';
 
@@ -49,6 +50,12 @@ class Menu extends Component {
   }
 
   handleMenuClick(element) {
+    ReactGA.event({
+      category: 'Menu',
+      action: 'Menu Click',
+      label: element
+    });
+
     const el = document.getElementById(element);
     let height = offsetPositionTop(el) - 70;
 
@@ -101,7 +108,7 @@ class Menu extends Component {
     return (
       <div className={"Menu row " + this.state.class} ref={this.menu}>
         <div className="container inner-menu">
-          <span className="Logo" dangerouslySetInnerHTML={{__html: svgTag }}></span>
+          <span onClick={() => this.handleMenuClick('landing')} className="Logo" dangerouslySetInnerHTML={{__html: svgTag }}></span>
           <ul>
             <li><h6 onClick={() => this.handleMenuClick('about')}>About</h6></li>
             <li><h6 onClick={() => this.handleMenuClick('portfolio')}>Projects</h6></li>
