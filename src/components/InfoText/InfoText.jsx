@@ -24,7 +24,7 @@ class InfoText extends Component {
           <h2>Work Experience</h2>
           <p>Mar 2018 — Present : Front End Engineer at <a onClick={() => this.linkClick('Thortful')} target="_blank" href="https://www.thortful.com/">Thortful Ltd.</a></p>
           <p>Feb 2018 — Sep 2018 : JS Developer & Researcher at <a onClick={() => this.linkClick('London Met Job')} target="_blank" href="https://www.londonmet.ac.uk">London Metropolitan University</a>, for <a onClick={() => this.linkClick('Lloyds Bank')} target="_blank" href="https://www.lloydsbank.com/">Lloyds Bank</a></p>
-          <p>Dec 2016 — July 2017 : Digital Manager at <a onClick={() => this.linkClick('New Moment')} target="_blank" href="https://www.newmoment.com/">New Moment</a></p>
+          <p>Dec 2016 — Jul 2017 : Digital Manager at <a onClick={() => this.linkClick('New Moment')} target="_blank" href="https://www.newmoment.com/">New Moment</a></p>
           <p>Dec 2013 — Jan 2016 : Web Designer & Developer at <a onClick={() => this.linkClick('IMB')} target="_blank" href="http://www.imb.al/en/">IMB</a></p>
         </div>
         <div>
