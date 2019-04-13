@@ -2,5 +2,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo
 
-<!-- [nerioslamaj.com](http://nerioslamaj.com) -->
-[https://nerioslamaj.github.io/nerioslamaj.com/](https://nerioslamaj.github.io/nerioslamaj.com/)
+Latest Stable Release - [nerioslamaj.com/](https://nerioslamaj.com/)
+Latest Release - [nerioslamaj.github.io/nerioslamaj.com/](https://nerioslamaj.github.io/nerioslamaj.com/)
