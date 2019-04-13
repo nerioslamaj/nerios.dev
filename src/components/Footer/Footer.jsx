@@ -30,6 +30,9 @@ class Footer extends Component {
             <a onClick={() => this.socialClick('Twitter')} target="_blank" href="https://twitter.com/NeriosLamaj"><FaTwitter/></a>
             <a onClick={() => this.socialClick('Instagram')} target="_blank" href="https://www.instagram.com/nerioslamaj/"><FaInstagram/></a>
           </div>
+          <div className="mini-footer">
+            <p>Designed and developed by Nerios Lamaj — For more information you can <a onClick={() => this.socialClick('CV Download')} href="/nlcv.pdf">download my CV</a>.</p>
+          </div>
         </div>
       </div>
     );
