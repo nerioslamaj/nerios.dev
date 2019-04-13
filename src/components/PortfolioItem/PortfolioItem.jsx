@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import { connect } from 'react-redux';
 import { MdWatchLater, MdOpenInNew } from 'react-icons/md';
 import './PortfolioItem.scss';
@@ -9,9 +10,25 @@ class PortfolioItem extends Component {
     if(item.active) {
       if(item.inner_portfolio) {
         this.props.dispatch({ type: 'OPEN_PORTFOLIO', data: item })
+        ReactGA.event({
+          category: 'Portfolio',
+          action: 'Active',
+          label: item.title
+        });
       } else {
         window.open(item.url, '_blank');
+        ReactGA.event({
+          category: 'Portfolio',
+          action: 'URL',
+          label: item.title
+        });
       }
+    } else {
+      ReactGA.event({
+        category: 'Portfolio',
+        action: 'Inactive',
+        label: item.title
+      });
     }
   }
 

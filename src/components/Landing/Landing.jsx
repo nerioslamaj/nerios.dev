@@ -49,7 +49,7 @@ class Landing extends Component {
     }
 
     return (
-      <div className="Landing">
+      <div className="Landing" id="landing">
         <Shader1></Shader1>
         {introBlock}
         {modal}
