@@ -15,7 +15,6 @@ class WhiteSection extends Component {
           <Portfolio></Portfolio>
           <InfoText></InfoText>
         </div>
-        <div className="white-div"></div>
       </div>
     );
   }

@@ -31,9 +31,17 @@ body {
       height 0.15s ease-out 0.15s,
       width 0.15s ease-out 0.15s,
       left 0.15s ease-in 0.15s,
-      top 0.15s ease-in 0.15s,
-      clip-path 0.15s ease-in
+      top 0.15s ease-in 0.15s
     ;
+    @include breakpoint($tablet) {
+      transition:
+        height 0.15s ease-out 0.15s,
+        width 0.15s ease-out 0.15s,
+        left 0.15s ease-in 0.15s,
+        top 0.15s ease-in 0.15s,
+        clip-path 0.15s ease-in
+      ;
+    }
     left: 50%;
     height: 100vh !important;
     width: 100vw !important;
@@ -66,13 +74,19 @@ body {
         height: 380px !important;
         top: 50%;
         left: calc(48% - 250px);
+        transition:
+          height 0.15s ease-in,
+          width 0.15s ease-in,
+          left 0.15s ease-in,
+          top 0.15s ease-in,
+          clip-path 0.2s ease-out 0.4s
+        ;
       }
       transition:
         height 0.15s ease-in,
         width 0.15s ease-in,
         left 0.15s ease-in,
-        top 0.15s ease-in,
-        clip-path 0.2s ease-out 0.4s
+        top 0.15s ease-in
       ;
       clip-path: polygon(
         0% 0%,      /* 1 */
