@@ -3,18 +3,9 @@
 .WhiteSection {
   padding: 80px 0 0 0;
   position: relative;
+  background: linear-gradient(#fff 40%, transparent 40%);
   @include breakpoint($tablet) {
+    background: linear-gradient(#fff 40%, transparent 40%);
     padding: 100px 0 0 0;
-  }
-  .white-div {
-    height: 1884px;
-    width: 100%;
-    background-color: $nl-white;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    @include breakpoint($tablet) {
-      height: 1436px;
-    }
   }
 }
