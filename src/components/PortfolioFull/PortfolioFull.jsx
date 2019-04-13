@@ -24,7 +24,7 @@ class PortfolioFull extends Component {
     })
 
     if(item.video) {
-      video = <iframe src={item.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      video = <iframe title="youtube" src={item.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     }
 
     if(item.link) {
