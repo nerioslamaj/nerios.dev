@@ -13,21 +13,21 @@ class PortfolioItem extends Component {
         ReactGA.event({
           category: 'Portfolio',
           action: 'Active',
-          label: item.title
+          label: item.mini_title
         });
       } else {
         window.open(item.url, '_blank');
         ReactGA.event({
           category: 'Portfolio',
           action: 'URL',
-          label: item.title
+          label: item.mini_title
         });
       }
     } else {
       ReactGA.event({
         category: 'Portfolio',
         action: 'Inactive',
-        label: item.title
+        label: item.mini_title
       });
     }
   }
