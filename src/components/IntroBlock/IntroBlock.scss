@@ -11,6 +11,12 @@
   z-index: 1;
   flex-direction: column;
   @include breakpoint($tablet) {
+    width: 395px;
+    top: 50%;
+    left: calc(48% + 180px);
+    text-align: left;
+  }
+  @include breakpoint($desktop) {
     width: 522px;
     top: 50%;
     left: calc(48% + 250px);
