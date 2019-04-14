@@ -70,10 +70,10 @@ body {
       width: 220px !important;
       height: 220px !important;
       @include breakpoint($tablet) {
-        width: 380px !important;
-        height: 380px !important;
+        width: 280px !important;
+        height: 280px !important;
         top: 50%;
-        left: calc(48% - 250px);
+        left: calc(48% - 180px);
         transition:
           height 0.15s ease-in,
           width 0.15s ease-in,
@@ -81,6 +81,11 @@ body {
           top 0.15s ease-in,
           clip-path 0.2s ease-out 0.4s
         ;
+      }
+      @include breakpoint($desktop) {
+        width: 380px !important;
+        height: 380px !important;
+        left: calc(48% - 250px);
       }
       transition:
         height 0.15s ease-in,

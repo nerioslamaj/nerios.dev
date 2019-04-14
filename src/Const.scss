@@ -85,6 +85,9 @@ h1 {
 	&.name {
 		font: normal 38px/1.2 'Futura-Bold', sans-serif;
 		@include breakpoint($tablet) {
+			font: normal 54px/1.2 'Futura-Bold', sans-serif;
+		}
+		@include breakpoint($desktop) {
 			font: normal 72px/1.2 'Futura-Bold', sans-serif;
 		}
 	}
