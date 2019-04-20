@@ -20,11 +20,11 @@ class IconsSkills extends Component {
         </div>
         <div>
           <img src={design} alt="Design"/>
-          <h6>Design</h6>
+          <h6>Testing</h6>
         </div>
         <div>
           <img src={project} alt="Project Managing"/>
-          <h6>Project Managing</h6>
+          <h6>Problem Solving</h6>
         </div>
       </div>
     );
