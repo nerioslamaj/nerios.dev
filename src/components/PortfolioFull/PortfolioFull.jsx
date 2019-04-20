@@ -1,15 +1,40 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { TouchScrollable } from 'react-scrolllock';
-import { MdClose } from 'react-icons/md';
+import { MdClose, MdArrowBack, MdArrowForward } from 'react-icons/md';
+import Data from '../../assets/files/portfolio.json'
 import './PortfolioFull.scss';
 
 class PortfolioFull extends Component {
 
-  state = { lockScroll: false }
-  
+  constructor(props) {
+    super(props);
+    this.goBack = this.goBack.bind(this);
+  }
+
+  // componentDidMount () {
+  //   setTimeout(() => {
+  //     window.scrollTo(0, 0);
+  //   }, 300)
+  // }
+
+  goBack() {
+    this.props.history.push("/");
+  }
+
   render() {
-    const item = this.props.portfolioData.inner_portfolio;
+    let item = {};
+
+    Data.some((x, i) => {
+      if(this.props.match.params.id === x.id && x.inner_portfolio) {
+        item = x.inner_portfolio;
+        return true
+      } else if(i === Data.length - 1) {
+        this.props.history.push("/");
+        // window.history.back()
+        return true;
+      }
+    })
+
     let paragraphs = [];
     let images = [];
     let video;
@@ -32,34 +57,34 @@ class PortfolioFull extends Component {
     }
 
     return (
-      <TouchScrollable>
-        <div className="PortfolioFull">
-          <div className="inner-PortfolioFull"  body-scroll-lock-ignore>
-            <div className="action">
-              <span onClick={ () => this.props.dispatch({ type: 'CLOSE_PORTFOLIO', data: null }) } className="cancel"><MdClose/></span>
-            </div>
-            <div className="AllText container">
-              <h1 className="name">{ item.title }</h1>
-              <div className="body">
-                <div className="details">
-                  <p className="alt">Worked in</p>
-                  <h6>{ item.date }</h6>
-                  <p className="alt">Client</p>
-                  <h6>{ item.worked_for }</h6>
-                  <p className="alt">Categories</p>
-                  <h6>{ item.categories }</h6>
-                </div>
-                <div className="paragraphs">
-                  { paragraphs }
-                  { link }
-                </div>
+      <div className="PortfolioFull">
+        <div className="inner-PortfolioFull">
+          <div className="action">
+            <span onClick={ this.goBack } className="cancel"><MdClose/></span>
+            <span onClick={ this.goBack }><MdArrowForward/></span>
+            <span onClick={ this.goBack }><MdArrowBack/></span>
+          </div>
+          <div className="AllText container">
+            <h1 className="name">{ item.title }</h1>
+            <div className="body">
+              <div className="details">
+                <p className="alt">Worked in</p>
+                <h6>{ item.date }</h6>
+                <p className="alt">Client</p>
+                <h6>{ item.worked_for }</h6>
+                <p className="alt">Categories</p>
+                <h6>{ item.categories }</h6>
+              </div>
+              <div className="paragraphs">
+                { paragraphs }
+                { link }
               </div>
             </div>
-            { images }
-            { video }
           </div>
+          { images }
+          { video }
         </div>
-      </TouchScrollable>
+      </div>
     );
   }
 }
