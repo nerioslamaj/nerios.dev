@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Shader1 from '../Shader/Shader1.jsx';
 import IntroBlock from '../IntroBlock/IntroBlock.jsx';
 import MeNowModal from '../MeNowModal/MeNowModal.jsx';
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
@@ -8,25 +7,9 @@ import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import './Landing.scss';
 
 class Landing extends Component {
-
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      enteredThePage: false
-    };
-  }
-
-  componentDidMount() {
-    disableBodyScroll(window);
-    setTimeout(() => {
-      this.setState({ enteredThePage: true });
-      clearAllBodyScrollLocks(window);
-    }, 1800)
-  }
-
+  
   render() {
-    let enteredThePage = this.state.enteredThePage;
+    let enteredThePage = this.props.landed;
     let introBlock;
     let modal;
 
@@ -50,7 +33,6 @@ class Landing extends Component {
 
     return (
       <div className="Landing" id="landing">
-        <Shader1></Shader1>
         {introBlock}
         {modal}
       </div>
