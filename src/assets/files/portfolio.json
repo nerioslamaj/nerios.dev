@@ -5,7 +5,7 @@
     "mini_title": "User Behaviour",
     "mini_subtitle": "JS Library (Coming Soon)",
     "icon": "MdWatchLater",
-    "thumbnail": "portfolioImg/user_thumb.jpg",
+    "thumbnail": "/portfolioImg/user_thumb.jpg",
     "inner_portfolio": {
       "title": "Understanding user's behaviour through machine learning algorithms",
       "paragraphs": [
@@ -16,10 +16,10 @@
       "worked_for": "Master Thesis",
       "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
       "images": [
-        "portfolioImg/user_1.jpg",
-        "portfolioImg/user_2.jpg",
-        "portfolioImg/user_3.jpg",
-        "portfolioImg/user_4.jpg"
+        "/portfolioImg/user_1.jpg",
+        "/portfolioImg/user_2.jpg",
+        "/portfolioImg/user_3.jpg",
+        "/portfolioImg/user_4.jpg"
       ],
       "link": null,
       "video": null
@@ -32,7 +32,7 @@
     "mini_title": "Personal Finance",
     "mini_subtitle": "Full Stack (Coming Soon)",
     "icon": "MdWatchLater",
-    "thumbnail": "portfolioImg/finance_thumb.jpg",
+    "thumbnail": "/portfolioImg/finance_thumb.jpg",
     "inner_portfolio": {
       "title": "Keeping track of personal finance",
       "paragraphs": [
@@ -43,10 +43,10 @@
       "worked_for": "Master Thesis",
       "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
       "images": [
-        "portfolioImg/user_1.jpg",
-        "portfolioImg/user_2.jpg",
-        "portfolioImg/user_3.jpg",
-        "portfolioImg/user_4.jpg"
+        "/portfolioImg/user_1.jpg",
+        "/portfolioImg/user_2.jpg",
+        "/portfolioImg/user_3.jpg",
+        "/portfolioImg/user_4.jpg"
       ],
       "link": null,
       "video": null
@@ -59,7 +59,7 @@
     "mini_title": "Co-Meeting",
     "mini_subtitle": "User Interface Design",
     "icon": null,
-    "thumbnail": "portfolioImg/commit_thumb.jpg",
+    "thumbnail": "/portfolioImg/commit_thumb.jpg",
     "inner_portfolio": {
       "title": "Co-Meeting, setting up conferences online",
       "paragraphs": [
@@ -70,10 +70,10 @@
       "worked_for": "commitsoftware.it",
       "categories": "UI / UX / Design",
       "images": [
-        "portfolioImg/commit_1.jpg",
-        "portfolioImg/commit_2.jpg",
-        "portfolioImg/commit_3.jpg",
-        "portfolioImg/commit_4.jpg"
+        "/portfolioImg/commit_1.jpg",
+        "/portfolioImg/commit_2.jpg",
+        "/portfolioImg/commit_3.jpg",
+        "/portfolioImg/commit_4.jpg"
       ],
       "link": null,
       "video": null
@@ -86,7 +86,7 @@
     "mini_title": "Supercop",
     "mini_subtitle": "Chrome Extension",
     "icon": null,
-    "thumbnail": "portfolioImg/supercop_thumb.jpg",
+    "thumbnail": "/portfolioImg/supercop_thumb.jpg",
     "inner_portfolio": {
       "title": "Supercop: A Chrome Extension for more accurate search results",
       "paragraphs": [
@@ -97,7 +97,7 @@
       "worked_for": "Supercop",
       "categories": "UI Development / UI Design / Chrome Extension",
       "images": [
-        "portfolioImg/supercop_1.jpg"
+        "/portfolioImg/supercop_1.jpg"
       ],
       "link": "http://nerioslamaj.com/code/SuperCop/",
       "video": null
@@ -110,7 +110,7 @@
     "mini_title": "Music Player",
     "mini_subtitle": "Prototyping",
     "icon": "MdOpenInNew",
-    "thumbnail": "portfolioImg/player_thumb.jpg",
+    "thumbnail": "/portfolioImg/player_thumb.jpg",
     "inner_portfolio": null,
     "url": "https://codepen.io/nerios/full/oxvxWM/"
   },
@@ -120,7 +120,7 @@
     "mini_title": "Homegrown",
     "mini_subtitle": "Visual Identity",
     "icon": null,
-    "thumbnail": "portfolioImg/villa_thumb.jpg",
+    "thumbnail": "/portfolioImg/villa_thumb.jpg",
     "inner_portfolio": {
       "title": "Your next favorite Offline Social Media",
       "paragraphs": [
@@ -131,10 +131,10 @@
       "worked_for": "British Council & Municipality of Tirana",
       "categories": "Branding / UX / Digital Strategy / Research",
       "images": [
-        "portfolioImg/villa_1.jpg",
-        "portfolioImg/villa_2.jpg",
-        "portfolioImg/villa_3.jpg",
-        "portfolioImg/villa_4.jpg"
+        "/portfolioImg/villa_1.jpg",
+        "/portfolioImg/villa_2.jpg",
+        "/portfolioImg/villa_3.jpg",
+        "/portfolioImg/villa_4.jpg"
       ],
       "link": null,
       "video": null
@@ -147,7 +147,7 @@
     "mini_title": "List Toggle",
     "mini_subtitle": "Prototyping",
     "icon": "MdOpenInNew",
-    "thumbnail": "portfolioImg/toggle_thumb.jpg",
+    "thumbnail": "/portfolioImg/toggle_thumb.jpg",
     "inner_portfolio": null,
     "url": "https://codepen.io/nerios/full/XdJgKz/"
   },
@@ -157,7 +157,7 @@
     "mini_title": "Helvetica Light",
     "mini_subtitle": "Prototyping",
     "icon": "MdOpenInNew",
-    "thumbnail": "portfolioImg/clock_thumb.jpg",
+    "thumbnail": "/portfolioImg/clock_thumb.jpg",
     "inner_portfolio": null,
     "url": "https://codepen.io/nerios/full/jWdQZq/"
   },
@@ -167,7 +167,7 @@
     "mini_title": "UIhaus Dashboard",
     "mini_subtitle": "Prototyping",
     "icon": "MdOpenInNew",
-    "thumbnail": "portfolioImg/uihaus_thumb.jpg",
+    "thumbnail": "/portfolioImg/uihaus_thumb.jpg",
     "inner_portfolio": null,
     "url": "https://codepen.io/nerios/full/MKNgQO/"
   },
@@ -177,7 +177,7 @@
     "mini_title": "Jo vetëm në 8 Mars",
     "mini_subtitle": "Awareness Campaign",
     "icon": null,
-    "thumbnail": "portfolioImg/mars_thumb.jpg",
+    "thumbnail": "/portfolioImg/mars_thumb.jpg",
     "inner_portfolio": {
       "title": "Creating awareness, not only in 8th of March!",
       "paragraphs": [

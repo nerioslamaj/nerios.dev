@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import Menu from './components/Menu/Menu.jsx';
+import { Route } from "react-router-dom";
 import Stars from './components/Stars/Stars.jsx';
+import Shader1 from './components/Shader/Shader1.jsx';
 import HomePage from './components/HomePage/HomePage.jsx';
+import PortfolioFull from './components/PortfolioFull/PortfolioFull.jsx';
 import './App.scss';
 
 class App extends Component {
@@ -17,9 +19,10 @@ class App extends Component {
   render() {
     return (
       <div ref={this.myRef} className="App">
-        <Menu></Menu>
         <Stars></Stars>
-        <HomePage></HomePage>
+        <Shader1></Shader1>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/portfolio/:id" component={PortfolioFull} />
       </div>
     );
   }
