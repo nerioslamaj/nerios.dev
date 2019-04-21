@@ -1,28 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactGA from 'react-ga';
 import { connect } from 'react-redux';
-
 import './Button.scss';
 
-class Button extends Component {
+const Button = props => {
 
-  click = () => {
-    this.props.dispatch({ type: this.props.btnClick })
+  const click = () => {
+    props.dispatch({ type: props.btnClick })
     ReactGA.event({
       category: 'Button',
       action: 'Click',
-      label: this.props.btnClick
+      label: props.btnClick
     });
   }
-
-  render() {
-    return (
-      <span style={{color: this.props.btnColor}} className="Button" onClick={this.click}>
-        {this.props.btnText}
-        <div style={{backgroundColor: this.props.btnColor}} className="line"></div>
-      </span>
-    );
-  }
+  
+  return (
+    <span style={{color: props.btnColor}} className="Button" onClick={click}>
+      {props.btnText}
+      <div style={{backgroundColor: props.btnColor}} className="line"></div>
+    </span>
+  )
 }
 
 export default connect()(Button);
