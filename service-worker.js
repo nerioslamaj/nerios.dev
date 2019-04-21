@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nerioslamaj.com/precache-manifest.b9ae883706011d4c36b044d15a74b4d7.js"
+  "/nerioslamaj.com/precache-manifest.888043d9734d4b8ce70ca45c0c83967a.js"
 );
 
 workbox.clientsClaim();
