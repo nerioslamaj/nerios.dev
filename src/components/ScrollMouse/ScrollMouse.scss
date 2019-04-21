@@ -1,0 +1,22 @@
+@import "../../Const.scss";
+
+svg.ScrollMouse {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  height: 41px;
+  animation: floatUp .5s ease 3.4s,f .5s ease 3.4s;
+  animation-fill-mode: both;
+  display: none;
+  @include breakpoint($mobile) {
+    display: block;
+  }
+  path {
+    fill: transparent;
+    stroke: #f0f0f0;
+  }
+  circle {
+    fill: $nl-light;
+    animation: scrolling ease-in-out 1.9s infinite;
+  }
+}
