@@ -85,7 +85,7 @@ h1 {
 	}
 	&.name {
 		font: normal 38px/1.2 'Futura-Bold', sans-serif;
-		@include breakpoint($tablet) {
+		@include breakpoint($mobile) {
 			font: normal 54px/1.2 'Futura-Bold', sans-serif;
 		}
 		@include breakpoint($desktop) {
@@ -222,5 +222,23 @@ span {
 	100% {
 		left: 100vw;
 		right: 0;
+	}
+}
+
+@keyframes scrolling {
+	0% {
+    transform: translateY(10px);
+    opacity: 0;
+	}
+	40% {
+			transform: translateY(10px);
+			opacity: 1;
+	}
+	70% {
+			opacity: 1;
+	}
+	100% {
+			transform: translateY(0);
+			opacity: 0;
 	}
 }

@@ -14,9 +14,12 @@
   padding: 60px 50px;
   max-width: 90%;
   max-height: 90%;
-  overflow: scroll;
+  overflow-y: scroll;
   box-shadow: 0 6px 35px rgba(0,0,0,0.35);
   -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar { 
+    display: none; 
+  } 
   h1 {
     margin-bottom: 10px;
   }

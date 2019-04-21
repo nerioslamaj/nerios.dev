@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import IntroBlock from '../IntroBlock/IntroBlock.jsx';
 import MeNowModal from '../MeNowModal/MeNowModal.jsx';
+import ScrollMouse from '../ScrollMouse/ScrollMouse.jsx';
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 
 import './Landing.scss';
@@ -35,6 +36,7 @@ class Landing extends Component {
       <div className="Landing" id="landing">
         {introBlock}
         {modal}
+        <ScrollMouse></ScrollMouse>
       </div>
     );
   }
