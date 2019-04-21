@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/nerioslamaj.com/static/media/user.2d77b219.svg"
   },
   {
-    "revision": "1ddd59ba0171d1816e49",
-    "url": "/nerioslamaj.com/static/css/main.5b0506d7.chunk.css"
+    "revision": "4794a5c8078d68a597a3",
+    "url": "/nerioslamaj.com/static/css/main.7fd0e3b3.chunk.css"
   },
   {
     "revision": "3fc9cb63822e06e0fb9c",
     "url": "/nerioslamaj.com/static/js/runtime~main.eca09165.js"
   },
   {
-    "revision": "a6744f09a052bc550f3d",
-    "url": "/nerioslamaj.com/static/js/2.970fd254.chunk.js"
+    "revision": "e91a764f2945ac9a3c5e",
+    "url": "/nerioslamaj.com/static/js/2.10268beb.chunk.js"
   },
   {
     "revision": "d616f15b6760a91bfababedfa7a28541",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/nerioslamaj.com/static/media/project.6ca31481.svg"
   },
   {
-    "revision": "1ddd59ba0171d1816e49",
-    "url": "/nerioslamaj.com/static/js/main.382364c3.chunk.js"
+    "revision": "4794a5c8078d68a597a3",
+    "url": "/nerioslamaj.com/static/js/main.3d59d753.chunk.js"
   },
   {
     "revision": "611418c4b94d25d38e696c8e13e75e67",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/nerioslamaj.com/static/media/FuturaLT-Bold.135dd3b4.ttf"
   },
   {
-    "revision": "160805f175ebdcb1c48736dbcc28c7eb",
+    "revision": "b5ffeec27d5aafd4385f9cb75abe6804",
     "url": "/nerioslamaj.com/index.html"
   }
 ];
