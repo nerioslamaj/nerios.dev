@@ -45,7 +45,7 @@
       position: fixed;
       top: 20px;
       right: 20px;
-      span {
+      button {
         display: block;
         margin-bottom: 8px;
         font-size: 26px;
@@ -54,6 +54,7 @@
         padding: 6px;
         color: $nl-black;
         background-color: $nl-light;
+        border: none;
         @extend %fade;
         &:hover {
           color: $nl-white;
@@ -67,6 +68,15 @@
           &:hover {
             background-color: $nl-blue;
             @extend %fade;
+          }
+        }
+        &:disabled {
+          color: $nl-grey2;
+          background-color: $nl-light;
+          cursor: default;
+          &:hover {
+            color: $nl-grey2;
+            background-color: $nl-light;
           }
         }
       }
@@ -140,7 +150,7 @@
       width: 100vw;
       height: 55vw;
       margin: 0 auto;
-      position: absolute;
+      position: relative;
       transform: translateX(-50%);
       margin-bottom: 60px;
       box-shadow: 0 8px 34px rgba(33,33,33,.63);

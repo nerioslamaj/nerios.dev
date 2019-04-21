@@ -9,6 +9,8 @@ class PortfolioFull extends Component {
   constructor(props) {
     super(props);
     this.goBack = this.goBack.bind(this);
+    this.nextItem = this.nextItem.bind(this);
+    this.prevItem = this.prevItem.bind(this);
   }
 
   // componentDidMount () {
@@ -21,6 +23,28 @@ class PortfolioFull extends Component {
     this.props.history.push("/");
   }
 
+  nextItem() {
+    let currentId = parseInt(this.props.match.params.id) + 1;
+
+    Data.some((x, i) => {
+      if(currentId === parseInt(x.id) && x.inner_portfolio && x.active) {
+        this.props.history.push("/portfolio/" + currentId)
+        return true
+      }
+    })
+  }
+
+  prevItem() {
+    let currentId = parseInt(this.props.match.params.id) - 1;
+
+    Data.some((x, i) => {
+      if(currentId === parseInt(x.id) && x.inner_portfolio && x.active) {
+        this.props.history.push("/portfolio/" + currentId)
+        return true
+      }
+    })
+  }
+
   render() {
     let item = {};
 
@@ -30,7 +54,6 @@ class PortfolioFull extends Component {
         return true
       } else if(i === Data.length - 1) {
         this.props.history.push("/");
-        // window.history.back()
         return true;
       }
     })
@@ -60,9 +83,9 @@ class PortfolioFull extends Component {
       <div className="PortfolioFull">
         <div className="inner-PortfolioFull">
           <div className="action">
-            <span onClick={ this.goBack } className="cancel"><MdClose/></span>
-            <span onClick={ this.goBack }><MdArrowForward/></span>
-            <span onClick={ this.goBack }><MdArrowBack/></span>
+            <button onClick={ this.goBack } className="cancel"><MdClose/></button>
+            <button onClick={ this.nextItem } disabled={item.last}><MdArrowForward/></button>
+            <button onClick={ this.prevItem } disabled={item.first}><MdArrowBack/></button>
           </div>
           <div className="AllText container">
             <h1 className="name">{ item.title }</h1>

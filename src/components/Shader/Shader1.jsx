@@ -7,14 +7,14 @@ class Shader1 extends Component {
 
   componentDidMount() {
 
-    var winWidth = window.innerWidth;
-    var winHeight = window.innerHeight;
+    // var winWidth = window.innerWidth;
+    // var winHeight = window.innerHeight;
 
     // Setup our sketch
     const settings = {
       context: 'webgl',
       animate: true,
-      dimensions: [winWidth, winHeight],
+      dimensions: [400, 400],
       scaleToFit: false,
       id: 'shader1'
     };
