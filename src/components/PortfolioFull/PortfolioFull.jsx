@@ -93,7 +93,7 @@ class PortfolioFull extends Component {
               <div className="details">
                 <p className="alt">Worked in</p>
                 <h6>{ item.date }</h6>
-                <p className="alt">Client</p>
+                <p className="alt">Worked for</p>
                 <h6>{ item.worked_for }</h6>
                 <p className="alt">Categories</p>
                 <h6>{ item.categories }</h6>
