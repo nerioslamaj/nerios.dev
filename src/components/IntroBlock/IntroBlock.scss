@@ -10,8 +10,11 @@
   transform: translate(-50%, -50%);
   z-index: 1;
   flex-direction: column;
-  @include breakpoint($tablet) {
+  @include breakpoint($mobile) {
+    top: calc(34% + 280px);
     width: 395px;
+  }
+  @include breakpoint($tablet) {
     top: 50%;
     left: calc(48% + 180px);
     text-align: left;
@@ -30,7 +33,7 @@
     color: $nl-white;
     opacity: 1;
     margin-bottom: 12px;
-    @include breakpoint($tablet) {
+    @include breakpoint($mobile) {
       margin-bottom: 16px;
     }
     span {
@@ -65,7 +68,7 @@
     animation-delay: 2s;
     margin-bottom: 14px;
     font-size: 14px;
-    @include breakpoint($tablet) {
+    @include breakpoint($mobile) {
       margin-bottom: 36px;
       font-size: 16px;
     }
