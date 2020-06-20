@@ -156,7 +156,8 @@ function build(previousFileSizes) {
         process.env.CI &&
         (typeof process.env.CI !== 'string' ||
           process.env.CI.toLowerCase() !== 'false') &&
-        messages.warnings.length
+        messages.warnings.length &&
+        process.env.ENABLE_ESLINT_NL !== "false"
       ) {
         console.log(
           chalk.yellow(

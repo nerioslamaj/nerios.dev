@@ -8,13 +8,13 @@
   }
   h3, p {
     padding: 0 12px;
-    flex: 0 33.3333%;
   }
   h3 {
     padding: 0 12px;
     color: $nl-blue;
     text-align: left;
     margin-bottom: 30px;
+    flex: 0 33.3333%;
     @include breakpoint($tablet) {
       margin-bottom: 0;
       padding-left: 0;
@@ -24,6 +24,7 @@
   p {
     color: $nl-grey;
     margin-bottom: 20px;
+    flex: 0 66.6666%;
     @include breakpoint($tablet) {
       margin-bottom: 0;
     }

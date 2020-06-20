@@ -13,11 +13,9 @@ class PortfolioFull extends Component {
     this.prevItem = this.prevItem.bind(this);
   }
 
-  // componentDidMount () {
-  //   setTimeout(() => {
-  //     window.scrollTo(0, 0);
-  //   }, 300)
-  // }
+  componentDidMount () {
+      window.scrollTo(0, 0);
+  }
 
   goBack() {
     this.props.history.push("/");
