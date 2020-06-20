@@ -14,15 +14,15 @@ const IconsSkills = () => {
         <h6>Development</h6>
       </div>
       <div>
-        <img src={user} alt="User Experience"/>
+        <img src={user} alt="Prototyping"/>
         <h6>Prototyping</h6>
       </div>
       <div>
-        <img src={design} alt="Design"/>
+        <img src={design} alt="Testing"/>
         <h6>Testing</h6>
       </div>
       <div>
-        <img src={project} alt="Project Managing"/>
+        <img src={project} alt="Problem Solving"/>
         <h6>Problem Solving</h6>
       </div>
     </div>
