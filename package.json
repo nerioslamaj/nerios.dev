@@ -78,7 +78,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js EXTEND_ESLINT=true",
+    "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
