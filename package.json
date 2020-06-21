@@ -2,7 +2,7 @@
   "name": "nerios",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nerioslamaj.com/",
+  "homepage": "https://nerios.dev/",
   "dependencies": {
     "@babel/core": "7.2.2",
     "@svgr/webpack": "^4.3.3",
