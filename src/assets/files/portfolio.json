@@ -1,27 +1,26 @@
 [
   {
     "id": "1",
-    "active": false,
+    "active": true,
     "mini_title": "Users & Machine Learning",
-    "mini_subtitle": "NPM Library (WIP)",
-    "icon": "MdWatchLater",
+    "mini_subtitle": "Dissertation Project",
+    "icon": null,
     "thumbnail": "/portfolioImg/user_thumb.jpg",
     "inner_portfolio": {
-      "title": "Understanding user's behaviour through machine learning algorithms",
+      "title": "Customer Behaviour Prediction Based on the Use of Machine Learning Algorithms",
       "paragraphs": [
-        "Working on a project",
-        "about some data"
+        "This project has been implemented to accomplish the module FC7P01, M.Sc. Computing Science and Information Systems of the M.Sc. in the area of Computing conducted by the London Metropolitan University.",
+        "Through this project, we used a set of user data collected through 1 hour of observation where multiple sessions from different users have occurred, and through this method, we categorised the users as buying and non-buying users. This set of data will serve to train the machine learning algorithms, which consist of Naive Bayes and Support Vector Machine. Since these data structures offer a good insight on how a user interacts with the web app and many personal and session identifiers, e.g. where the user comes from, what platform they are using, what products and how many products they see — considering the data in our research data, we have some scalar data which will serve to train the Support Vector Machine algorithm and some string data which will serve to train Naive Bayes algorithm.",
+        "By categorising the users in two main categories as buyers and non-buyers, we will be able to find patterns of behaviour on each of these categories with the help of classification algorithms mentioned above and predict for the future users whether they are potential buyers or not.",
+        "The dissertation was marked with A (78%)"
       ],
       "date": "Feb 2019 - Jun 2019",
       "worked_for": "Master Thesis",
       "categories": "Machine Learning / Artificial Intelligence / Javascript / NPM",
       "images": [
-        "/portfolioImg/user_1.jpg",
-        "/portfolioImg/user_2.jpg",
-        "/portfolioImg/user_3.jpg",
-        "/portfolioImg/user_4.jpg"
+        "/portfolioImg/dissertation.jpg"
       ],
-      "link": null,
+      "link": "https://nerios.dev/files/dissertation.pdf",
       "video": null
     },
     "url": null
