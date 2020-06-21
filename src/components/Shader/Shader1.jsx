@@ -14,7 +14,7 @@ class Shader1 extends Component {
     const settings = {
       context: 'webgl',
       animate: true,
-      dimensions: [400, 400],
+      dimensions: [800, 800],
       scaleToFit: false,
       id: 'shader1'
     };
