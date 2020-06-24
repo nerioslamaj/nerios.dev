@@ -34,20 +34,17 @@
     "icon": null,
     "thumbnail": "/portfolioImg/videoplayer.jpg",
     "inner_portfolio": {
-      "title": "Financial App: Personal Finance Tracker on the Web",
+      "title": "Videoplayer App: Managing videos and playilists",
       "paragraphs": [
-        "Managing your money is a constant push and pull between watchfulness and restraint. The manual old ways to managing money, like note keeping, spreadsheets can get outdated and hard to maintain, so digital solutions are more preferable to approach this problem. This problem is interesting to be solved because it is a problem that almost every adult has and the impact that it has in people’s lives is huge. Keeping track of your personal finances helps a lot on organising this important part of our life. Through the Financial App users are going to store their income, set saving goals, keep track of their expenses and recognise spending habits which they can improve.",
-        "For this project I am using MongoDB database, a backend architecture with FeathersJS framework which is wrapped around ExpressJS framework and for frontend I used React. This project is full stack Javascript and all the communications are made through REST APIs. The UI displayed below is just a concept designed early in the process, while for the real project I used React Semantic UI library."
+        "This was just a fun project I started working on in order to practice Vue. I was also inspired to develop a product like Spotify, but for videos."
       ],
-      "date": "Nov 2018 - Jan 2019",
-      "worked_for": "University Module",
-      "categories": "Full Stack / FeathersJS / React / MongoDB / Javascript",
+      "date": "Jul 2019",
+      "worked_for": "Personal",
+      "categories": "Vue / Prototyping / Javascript",
       "images": [
-        "/portfolioImg/finance_1.jpg",
-        "/portfolioImg/finance_2.jpg",
-        "/portfolioImg/finance_3.jpg"
+        "/portfolioImg/videoplayer_1.png"
       ],
-      "link": "https://github.com/nerioslamaj/financial_app",
+      "link": "https://videolist-player.netlify.app/",
       "video": null
     },
     "url": null
@@ -60,20 +57,18 @@
     "icon": null,
     "thumbnail": "/portfolioImg/swapi.jpg",
     "inner_portfolio": {
-      "title": "Financial App: Personal Finance Tracker on the Web",
+      "title": "Star Wars API search app",
       "paragraphs": [
-        "Managing your money is a constant push and pull between watchfulness and restraint. The manual old ways to managing money, like note keeping, spreadsheets can get outdated and hard to maintain, so digital solutions are more preferable to approach this problem. This problem is interesting to be solved because it is a problem that almost every adult has and the impact that it has in people’s lives is huge. Keeping track of your personal finances helps a lot on organising this important part of our life. Through the Financial App users are going to store their income, set saving goals, keep track of their expenses and recognise spending habits which they can improve.",
-        "For this project I am using MongoDB database, a backend architecture with FeathersJS framework which is wrapped around ExpressJS framework and for frontend I used React. This project is full stack Javascript and all the communications are made through REST APIs. The UI displayed below is just a concept designed early in the process, while for the real project I used React Semantic UI library."
+        "The Star Wars API, or \"swapi\" (Swah-pee) is the world's first quantified and programmatically-accessible data source for all the data from the Star Wars canon universe!",
+        "This is just a simple app that makes use of SWAPI for making calls to their endpoint, just like a search component."
       ],
-      "date": "Nov 2018 - Jan 2019",
-      "worked_for": "University Module",
-      "categories": "Full Stack / FeathersJS / React / MongoDB / Javascript",
+      "date": "Mar 2018",
+      "worked_for": "Personal",
+      "categories": "AngularJS / Prototyping / Search / Javascript",
       "images": [
-        "/portfolioImg/finance_1.jpg",
-        "/portfolioImg/finance_2.jpg",
-        "/portfolioImg/finance_3.jpg"
+        "/portfolioImg/swapi_1.png"
       ],
-      "link": "https://github.com/nerioslamaj/financial_app",
+      "link": "https://swapi-search.netlify.app/#/",
       "video": null
     },
     "url": null
