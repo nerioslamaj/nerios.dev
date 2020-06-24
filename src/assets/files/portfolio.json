@@ -7,6 +7,7 @@
     "icon": null,
     "thumbnail": "/portfolioImg/user_thumb.jpg",
     "inner_portfolio": {
+      "first": true,
       "title": "Customer Behaviour Prediction Based on the Use of Machine Learning Algorithms",
       "paragraphs": [
         "This project has been implemented to accomplish the module FC7P01, M.Sc. Computing Science and Information Systems of the M.Sc. in the area of Computing conducted by the London Metropolitan University.",
@@ -28,12 +29,58 @@
   {
     "id": "2",
     "active": true,
+    "mini_title": "Video Player",
+    "mini_subtitle": "Vue App",
+    "icon": null,
+    "thumbnail": "/portfolioImg/videoplayer.jpg",
+    "inner_portfolio": {
+      "title": "Videoplayer App: Managing videos and playilists",
+      "paragraphs": [
+        "This was just a fun project I started working on in order to practice Vue. I was also inspired to develop a product like Spotify, but for videos."
+      ],
+      "date": "Jul 2019",
+      "worked_for": "Personal",
+      "categories": "Vue / Prototyping / Javascript",
+      "images": [
+        "/portfolioImg/videoplayer_1.png"
+      ],
+      "link": "https://videolist-player.netlify.app/",
+      "video": null
+    },
+    "url": null
+  },
+  {
+    "id": "3",
+    "active": true,
+    "mini_title": "Star Wars API",
+    "mini_subtitle": "The Force Awakens Data",
+    "icon": null,
+    "thumbnail": "/portfolioImg/swapi.jpg",
+    "inner_portfolio": {
+      "title": "Star Wars API search app",
+      "paragraphs": [
+        "The Star Wars API, or \"swapi\" (Swah-pee) is the world's first quantified and programmatically-accessible data source for all the data from the Star Wars canon universe!",
+        "This is just a simple app that makes use of SWAPI for making calls to their endpoint, just like a search component."
+      ],
+      "date": "Mar 2018",
+      "worked_for": "Personal",
+      "categories": "AngularJS / Prototyping / Search / Javascript",
+      "images": [
+        "/portfolioImg/swapi_1.png"
+      ],
+      "link": "https://swapi-search.netlify.app/#/",
+      "video": null
+    },
+    "url": null
+  },
+  {
+    "id": "4",
+    "active": true,
     "mini_title": "Financial App",
     "mini_subtitle": "Full Stack Javascript",
     "icon": null,
     "thumbnail": "/portfolioImg/finance_thumb2.jpg",
     "inner_portfolio": {
-      "first": true,
       "title": "Financial App: Personal Finance Tracker on the Web",
       "paragraphs": [
         "Managing your money is a constant push and pull between watchfulness and restraint. The manual old ways to managing money, like note keeping, spreadsheets can get outdated and hard to maintain, so digital solutions are more preferable to approach this problem. This problem is interesting to be solved because it is a problem that almost every adult has and the impact that it has in people’s lives is huge. Keeping track of your personal finances helps a lot on organising this important part of our life. Through the Financial App users are going to store their income, set saving goals, keep track of their expenses and recognise spending habits which they can improve.",
@@ -53,7 +100,7 @@
     "url": null
   },
   {
-    "id": "3",
+    "id": "5",
     "active": true,
     "mini_title": "Co-Meeting",
     "mini_subtitle": "User Interface Design",
@@ -80,7 +127,7 @@
     "url": null
   },
   {
-    "id": "4",
+    "id": "6",
     "active": true,
     "mini_title": "Supercop",
     "mini_subtitle": "Chrome Extension",
@@ -104,7 +151,7 @@
     "url": null
   },
   {
-    "id": "7",
+    "id": "9",
     "active": true,
     "mini_title": "Music Player",
     "mini_subtitle": "Prototyping",
@@ -114,7 +161,7 @@
     "url": "https://codepen.io/nerios/full/oxvxWM/"
   },
   {
-    "id": "5",
+    "id": "7",
     "active": true,
     "mini_title": "Homegrown",
     "mini_subtitle": "Visual Identity",
@@ -141,7 +188,7 @@
     "url": null
   },
   {
-    "id": "8",
+    "id": "10",
     "active": true,
     "mini_title": "List Toggle",
     "mini_subtitle": "Prototyping",
@@ -151,7 +198,7 @@
     "url": "https://codepen.io/nerios/full/XdJgKz/"
   },
   {
-    "id": "9",
+    "id": "11",
     "active": true,
     "mini_title": "Helvetica Light",
     "mini_subtitle": "Prototyping",
@@ -161,7 +208,7 @@
     "url": "https://codepen.io/nerios/full/jWdQZq/"
   },
   {
-    "id": "10",
+    "id": "12",
     "active": true,
     "mini_title": "UIhaus Dashboard",
     "mini_subtitle": "Prototyping",
@@ -171,7 +218,7 @@
     "url": "https://codepen.io/nerios/full/MKNgQO/"
   },
   {
-    "id": "6",
+    "id": "8",
     "active": true,
     "mini_title": "Jo vetëm në 8 Mars",
     "mini_subtitle": "Awareness Campaign",
