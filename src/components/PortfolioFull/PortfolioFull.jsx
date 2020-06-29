@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { MdClose, MdArrowBack, MdArrowForward } from 'react-icons/md';
 import Data from '../../assets/files/portfolio.json'
+import { Markup } from 'interweave'
 import './PortfolioFull.scss';
 
 class PortfolioFull extends Component {
@@ -62,7 +63,7 @@ class PortfolioFull extends Component {
     let link;
 
     item.paragraphs.map((x, i) => {
-      paragraphs.push(<p key={ i }>{ x }</p>)
+      paragraphs.push(<Markup key={ i } content={ x } containerTagName='p' />)
     })
 
     item.images.map((x, i) => {

@@ -127,6 +127,15 @@
           }
           p {
             margin-bottom: 24px;
+            a {
+              background: $nl-white;
+              @extend %fade;
+              &:hover {
+                color: $nl-white;
+                background: $nl-blue;
+                @extend %fade;
+              }
+            }
           }
           h6 {
             a {
