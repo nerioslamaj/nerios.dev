@@ -38,6 +38,7 @@
     "html-webpack-plugin": "4.0.0-alpha.2",
     "identity-obj-proxy": "3.0.0",
     "ify-loader": "^1.1.0",
+    "interweave": "^12.5.0",
     "jest": "^24.9.0",
     "jest-pnp-resolver": "1.0.2",
     "jest-resolve": "23.6.0",
